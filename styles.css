@@ -14,11 +14,17 @@ body {
     top: 0;
     width: 10px;
     height: 100%;
+}
 
+.bars {
+    position: relative;
 }
 #progress-bar {
-    background-color: #3f72af;
+    /* background-color: #3f72af; */
+    background-color: red;
     z-index: 5;
+    height: 100px;
+    width: 15px;
 }
 
 #progress-bar-background {
